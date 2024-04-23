@@ -34,7 +34,10 @@ export default function Skills() {
         className="flex flex-wrap justify-center gap-2 text-lg text-gray-800"
       > 
         {skillsData.map((skill, index) => (
-          <div className="relative block group h-20 w-20 md:h-32 md:w-32">
+          <div 
+            className="relative block group h-20 w-20 md:h-32 md:w-32"
+            key={index}
+          >
             <motion.img 
               src={`./img/skills/${skill.sname}.${skill.Type}`}
               alt={skill.Title}
