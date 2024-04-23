@@ -5,7 +5,7 @@ import React from 'react'
 export default function Card() {
   return (
     <motion.div 
-      className="flex flex-col sm:flex-row gap-6"
+      className="flex flex-col items-center justify-center md:flex-wrap sm:flex-row gap-6 w-full"
       initial={{ opacity: 0, scale: 0 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ 
@@ -18,7 +18,7 @@ export default function Card() {
       {
         projectsData.map((data, index) => (
             <div 
-              className="w-96 flex flex-col items-center justify-center border border-black/10 border-width-4 rounded-md p-4  bg-white dark:text-black/70 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+              className="flex flex-col items-center justify-center border border-black/10 border-width-4 rounded-md p-4  bg-white dark:text-black/70 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none w-full lg:w-96"
               key={index}
               onClick={() => {window.open(data.site)}}
             >

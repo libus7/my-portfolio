@@ -11,7 +11,7 @@ export default function Projects() {
 
   return (
     <section
-      className="mb-28 mt-28 leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-36 mt-28 leading-8 sm:mb-40 scroll-mt-28"
       id="projects"
     >
       <SectionHeading>Projects</SectionHeading>
