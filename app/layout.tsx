@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body className={`${inter.className} bg-gray-100 text-gray-950 relative h-[4400px] pt-6 sm:pt-0 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
-      <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+      
  
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
