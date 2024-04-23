@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
+export default nextConfig;
 
 module.exports = {
   eslint: {
@@ -9,5 +10,3 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
 }
-
-export default nextConfig;

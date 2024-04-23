@@ -31,7 +31,6 @@ export default function Card() {
                 width="300"
                 height="250"
                 alt={data.title}
-                quality={90}
                 className="py-4"
                 key={index} 
               />
